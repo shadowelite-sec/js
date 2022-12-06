@@ -1,0 +1,47 @@
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  color: white;
+}
+
+.container label {
+  font-size: 20px;
+  font-family: Hack;
+  font-weight: bolder;
+}
+
+.container input {
+  font-size: 20px;
+  background-color: #121212;
+  color: white;
+  border: 5px solid #34d399;
+  border-radius: 10px;
+}
+
+.container input:hover {
+  font-size: 20px;
+  background-color: #121212;
+  color: white;
+  border: 5px solid #34d399;
+  border-radius: 10px;
+}
+.container label[id="cside"] {
+  font-size: 20px;
+  color: #ffa701;
+  border: 5px solid #5081ff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container button {
+  background-color: #8dffa3;
+  width: 50%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.container button:hover {
+  background-color: #57cefa;
+}
